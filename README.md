@@ -66,7 +66,17 @@ Used Python lists (books, members) in models.py to mimic a database for simplici
 
 Followed REST principles to design endpoints for better usability and scalability.
 
-(C) Limitations
+(C) Assumptions and Limitations
+
+Assumptions:
+
+1. Authentication Token: A hardcoded token (token123) is used for simplicity.
+
+2. Data Storage: Books and members are stored as Python lists in models.py.
+
+3. Unique IDs: The system assumes unique IDs are assigned automatically when a book or member is added.
+
+Limitations:
 
 1. No Persistent Storage: Data is not stored persistently and will reset when the server restarts.
 
